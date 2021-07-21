@@ -56,25 +56,25 @@ if (isset($_POST['submit'])) {
 	<title>Register Form </title>
 </head>
 <body>
-	<div class="container">
+	<div class="kotak">
 		<form action="" method="POST" class="login-email">
             <p class="login-text" style="font-size: 2rem; font-weight: 800;">Register</p>
-			<div class="input-group">
+			<div class="nama-user-register">
 				<input type="text" placeholder="Username" name="username" value="<?php echo $username; ?>" required>
 			</div>
-			<div class="input-group">
+			<div class="nama-email-register">
 				<input type="email" placeholder="Email" name="email" value="<?php echo $email; ?>" required>
 			</div>
-			<div class="input-group">
+			<div class="nama-password-register">
 				<input type="password" placeholder="Password" name="password" value="<?php echo $_POST['password']; ?>" required>
             </div>
-            <div class="input-group">
+            <div class="nama-password-register">
 				<input type="password" placeholder="Confirm Password" name="cpassword" value="<?php echo $_POST['cpassword']; ?>" required>
 			</div>
-			<div class="input-group">
+			<div class="tombol-submit">
 				<button name="submit" class="btn">Registrasi</button>
 			</div>
-			<p class="login-register-text">Sudah Punya Akun? <a href="index.php">Login Disini</a>.</p>
+			<p class="info-sudah-register">Sudah Punya Akun? <a href="index.php">Login Disini</a>.</p>
 		</form>
 	</div>
 </body>

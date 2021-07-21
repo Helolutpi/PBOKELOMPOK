@@ -40,19 +40,19 @@ if (isset($_POST['submit'])) {
 	<title>Login Form </title>
 </head>
 <body>
-	<div class="container">
+	<div class="kotak">
 		<form action="" method="POST" class="login-email">
 			<p class="login-text" style="font-size: 2rem; font-weight: 800;">Masuk</p>
-			<div class="input-group">
+			<div class="nama-email-login">
 				<input type="email" placeholder="Email" name="email" value="<?php echo $email; ?>" required>
 			</div>
-			<div class="input-group">
+			<div class="nama-password-login">
 				<input type="password" placeholder="Password" name="password" value="<?php echo $_POST['password']; ?>" required>
 			</div>
-			<div class="input-group">
+			<div class="tombol-submit">
 				<button name="submit" class="btn">Masuk</button>
 			</div>
-			<p class="login-register-text">Belum Punya Akun? <a href="register.php">Registrasi Disini</a>.</p>
+			<p class="info-belum-register">Belum Punya Akun? <a href="register.php">Registrasi Disini</a>.</p>
 		</form>
 	</div>
 </body>

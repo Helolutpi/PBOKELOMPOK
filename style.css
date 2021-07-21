@@ -17,7 +17,7 @@ body {
     align-items: center;
 }
 
-.container {
+.kotak {
     width: 400px;
     min-height: 400px;
     background: #FFF;
@@ -27,7 +27,7 @@ body {
     padding: 40px 30px;
 }
 
-.container .login-text {
+.kotak .login-text {
     color: #111;
     font-weight: 500;
     font-size: 1.1rem;
@@ -37,13 +37,13 @@ body {
     text-transform: capitalize;
 }
 
-.container .login-social {
+.kotak .login-social {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
     margin-bottom: 25px;
 }
 
-.container .login-social a {
+.kotak .login-social a {
     padding: 12px;
     margin: 10px;
     border-radius: 3px;
@@ -55,49 +55,132 @@ body {
     transition: .3s;
 }
 
-.container .login-social a i {
+.kotak .login-social a i {
     margin-right: 5px;
 }
 
-.container .login-social a.facebook {
+.kotak .login-social a.facebook {
     background: #f18c8e;
 }
 
-.container .login-social a.twitter {
+.kotak .login-social a.twitter {
     background: #f18c8e;
 }
 
-.container .login-social a.google-plus {
+.kotak .login-social a.google-plus {
     background: #db4a39;
 }
 
-.container .login-social a.linkedin {
+.kotak .login-social a.linkedin {
     background: #f18c8e;
 }
 
-.container .login-social a.facebook:hover {
+.kotak .login-social a.facebook:hover {
     background: #f18c8e;
 }
 
-.container .login-social a.twitter:hover {
+.kotak .login-social a.twitter:hover {
     background: #f18c8e;
 }
 
-.container .login-social a.google-plus:hover {
+.kotak .login-social a.google-plus:hover {
     background: #ca4334;
 }
 
-.container .login-social a.linkedin:hover {
+.kotak .login-social a.linkedin:hover {
     background: #f18c8e;
 }
 
-.container .login-email .input-group {
+
+.kotak .login-email .nama-email-login {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+}
+.kotak .login-email .nama-password-login {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+}
+.kotak .login-email .tombol-submit {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+}
+.kotak .login-email .nama-user-register {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+}
+.kotak .login-email .nama-email-register {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+}
+.kotak .login-email .nama-password-register {
     width: 100%;
     height: 50px;
     margin-bottom: 25px;
 }
 
-.container .login-email .input-group input {
+
+
+.kotak .login-email .nama-email-login input {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #e7e7e7;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+    background: transparent;
+    outline: none;
+    transition: .3s;
+}
+.kotak .login-email .nama-password-login input {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #e7e7e7;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+    background: transparent;
+    outline: none;
+    transition: .3s;
+}
+.kotak .login-email .tombol-submit input {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #e7e7e7;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+    background: transparent;
+    outline: none;
+    transition: .3s;
+}
+.kotak .login-email .nama-user-register input {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #e7e7e7;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+    background: transparent;
+    outline: none;
+    transition: .3s;
+}
+.kotak .login-email .nama-email-register input {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #e7e7e7;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+    background: transparent;
+    outline: none;
+    transition: .3s;
+}
+.kotak .login-email .nama-password-register input{
     width: 100%;
     height: 100%;
     border: 2px solid #e7e7e7;
@@ -109,11 +192,102 @@ body {
     transition: .3s;
 }
 
-.container .login-email .input-group input:focus, .container .login-email .input-group input:valid {
+
+
+
+.kotak .login-email .nama-email-login input:focus, .kotak .login-email .nama-email-login input:valid {
+    border-color: #f18c8e;
+}
+.kotak .login-email .nama-password-login input:focus, .kotak .login-email .nama-password-login input:valid {
+    border-color: #f18c8e;
+}
+.kotak .login-email .tombol-submit input:focus, .kotak .login-email .tombol-submit input:valid {
+    border-color: #f18c8e;
+}
+.kotak .login-email .nama-user-register  input:focus, .kotak .login-email .nama-user-register input:valid {
+    border-color: #f18c8e;
+}
+.kotak .login-email .nama-email-register input:focus, .kotak .login-email .nama-email-register input:valid {
+    border-color: #f18c8e;
+}
+.kotak .login-email .nama-password-register input:focus, .kotak .login-email .nama-password-register input:valid {
     border-color: #f18c8e;
 }
 
-.container .login-email .input-group .btn {
+
+
+
+.kotak .login-email .nama-email-login .btn {
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    background: #f8a7a9;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: #FFF;
+    cursor: pointer;
+    transition: .3s;
+}
+.kotak .login-email .nama-password-login .btn {
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    background: #f8a7a9;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: #FFF;
+    cursor: pointer;
+    transition: .3s;
+}
+.kotak .login-email .tombol-submit .btn {
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    background: #f8a7a9;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: #FFF;
+    cursor: pointer;
+    transition: .3s;
+}
+.kotak .login-email .nama-email-register .btn {
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    background: #f8a7a9;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: #FFF;
+    cursor: pointer;
+    transition: .3s;
+}
+.kotak .login-email .nama-password-register .btn {
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    background: #f8a7a9;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: #FFF;
+    cursor: pointer;
+    transition: .3s;
+}
+.kotak .login-email .nama-user-register  .btn {
     display: block;
     width: 100%;
     padding: 15px 20px;
@@ -128,29 +302,73 @@ body {
     transition: .3s;
 }
 
-.container .login-email .input-group .btn:hover {
+
+nama-email-login
+nama-password-login
+tombol-submit
+nama-email-register
+nama-password-register
+nama-user-register
+
+
+.kotak .login-email .nama-email-login .btn:hover {
+    transform: translateY(-5px);
+    background: #f18c8e;
+}
+.kotak .login-email .nama-password-login .btn:hover {
+    transform: translateY(-5px);
+    background: #f18c8e;
+}
+.kotak .login-email .tombol-submit .btn:hover {
+    transform: translateY(-5px);
+    background: #f18c8e;
+}
+.kotak .login-email .nama-email-register .btn:hover {
+    transform: translateY(-5px);
+    background: #f18c8e;
+}
+.kotak .login-email .nama-password-register .btn:hover {
+    transform: translateY(-5px);
+    background: #f18c8e;
+}
+.kotak .login-email .nama-user-register .btn:hover {
     transform: translateY(-5px);
     background: #f18c8e;
 }
 
-.login-register-text {
+
+
+
+
+.info-belum-register {
     color: #111;
     font-weight: 600;
 }
 
-.login-register-text a {
+.info-belum-register a {
     text-decoration: none;
     color: #f18c8e;
 }
 
+.info-sudah-register {
+    color: #111;
+    font-weight: 600;
+}
+
+.info-sudah-register a {
+    text-decoration: none;
+    color: #f18c8e;
+}
+
+
 @media (max-width: 430px) {
-    .container {
+    .kotak {
         width: 300px;
     }
-    .container .login-social {
+    .kotak .login-social {
         display: block;
     }
-    .container .login-social a {
+    .kotak .login-social a {
         display: block;
     }
 }
